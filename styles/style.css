@@ -1,0 +1,259 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lepcha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Noto Sans Lepcha", sans-serif;
+}
+
+
+header {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+
+}
+
+
+
+.logo {
+    padding-left: 43px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.logo-span {
+    letter-spacing: 4px;
+    opacity: 0.7;
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 0px 25px;
+    letter-spacing: 2px;
+    color: rgb(28, 26, 26);
+}
+
+#last-link {
+    padding-right: 52px;
+}
+
+.container {
+    width: 80%;
+    margin: 0% auto;
+}
+
+
+/* overlay text css starts from here */
+
+
+.main-img {
+    position: relative;
+}
+
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    letter-spacing: 2px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.span-main-img {
+    color: white;
+    background-color: black;
+    padding: 13px;
+    font-size: 23px;
+    font-weight: 900;
+    opacity: 0.9;
+}
+
+#architect {
+    width: 100%;
+    height: 570px;
+}
+
+
+/* AFTER main IMAGE */
+
+
+/* Headings of all sections of NAV-LINKS */
+
+.heading {
+    font-size: 18px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/* transparent-line for project */
+
+.transparent-line {
+    color: black;
+    opacity: 0.4;
+}
+
+/* For HOuses 1st line */
+
+.houses {
+    display: flex;
+}
+
+.house-with-text {
+    position: relative;
+    padding-right: 6px;
+
+}
+
+.house-text {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    margin: 0;
+    font-size: 14px;
+}
+
+.houses img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+/* For HOuses 2nd line */
+
+.houses-2 {
+    margin-top: 6px;
+    display: flex;
+    width: 100%;
+}
+
+.houses-2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.house-with-text {
+    position: relative;
+    width: 25%;
+    padding-right: 6px;
+
+}
+
+
+
+/* Team Persons */
+
+.Team-persons {
+    display: flex;
+
+}
+
+.person-card {
+
+    width: 25%;
+    padding-right: 6px;
+    /* Optional: Add some padding between cards */
+
+}
+
+.person-card img {
+    width: 100%;
+    /* Make sure the images fit within their containers */
+}
+
+.person-name {
+    font-weight: 400;
+    font-size: 21px;
+    padding: 20px 5px;
+    padding-top: 17px;
+}
+
+.person-work {
+    padding-bottom: 18px;
+    padding-left: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0.7;
+    letter-spacing: 1px;
+}
+
+.person-card p {
+    padding-left: 5px;
+}
+
+.button-in-person-card {
+    padding-left: 5px;
+    width: 100%;
+    padding: 7px 0px 7px 5px;
+    margin-top: 14px;
+    border: none;
+    background-color: antiquewhite;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Inputs of contact section */
+
+.inputs-of-contact-section {
+    width: 100%;
+    margin: 13px 0px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 12px;
+    border: 2px solid #D0D0D0;
+}
+
+
+/* send message button */
+
+.contact-btn {
+    padding: 8px 21px;
+    color: white;
+    background-color: black;
+    letter-spacing: 1px;
+    margin-bottom: 49px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.map-img {
+    width: 100%;
+    padding-bottom: 4px;
+}
+
+/* Footer Css */
+
+.footer p {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 19px 0px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.footer-link {
+    color: white;
+}
+
+
